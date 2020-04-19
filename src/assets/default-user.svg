@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>1D438305-C95C-4D30-9853-3F31EF5C64E6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="28" cy="28" r="28"></circle>
+        <polygon id="path-3" points="0.41756123 0.162375443 18.1386253 0.162375443 18.1386253 21.8026401 0.41756123 21.8026401"></polygon>
+        <polygon id="path-5" points="0 0.26856053 33.7348665 0.26856053 33.7348665 19.9153602 0 19.9153602"></polygon>
+    </defs>
+    <g id="Updated-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Clinic_Admin_main_update_Urgent_Care_app-states" transform="translate(-674.000000, -232.000000)">
+            <g id="Group-20-Copy-3" transform="translate(542.000000, 220.000000)">
+                <g id="Group-6-Copy">
+                    <g id="Group-18-Copy">
+                        <g id="Group-8">
+                            <g id="Group-4">
+                                <g id="0-copy" transform="translate(132.000000, 12.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#E6F6FC" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                    <g id="Group-11" mask="url(#mask-2)">
+                                        <g transform="translate(11.000000, 8.000000)" id="Group-7">
+                                            <g>
+                                                <g id="Group-3" transform="translate(7.519486, 0.232252)">
+                                                    <mask id="mask-4" fill="white">
+                                                        <use xlink:href="#path-3"></use>
+                                                    </mask>
+                                                    <g id="Clip-2"></g>
+                                                    <path d="M9.23738615,21.8026401 C14.1020015,21.8026401 18.0415425,16.9565063 18.0415425,10.9819961 C18.0415425,5.00748579 19.663081,0.289285811 9.65207468,0.202290801 C9.62549208,0.202290801 9.604226,0.204849478 9.58030166,0.204849478 C9.46333823,0.199732124 9.35434958,0.161351973 9.23738615,0.161351973 C9.06459927,0.161351973 8.90510368,0.212525508 8.73497506,0.222760215 C-0.276525575,0.450482448 0.430571525,5.20194522 0.430571525,10.9819961 C0.430571525,16.9565063 4.37277077,21.8026401 9.23738615,21.8026401" id="Fill-1" fill="#8DD8F4" mask="url(#mask-4)"></path>
+                                                </g>
+                                                <g id="Group-6" transform="translate(0.000000, 20.701666)">
+                                                    <mask id="mask-6" fill="white">
+                                                        <use xlink:href="#path-5"></use>
+                                                    </mask>
+                                                    <g id="Clip-5"></g>
+                                                    <path d="M32.0820055,6.34541787 C30.909713,1.22294697 24.2321644,0.26856053 24.2321644,0.26856053 C24.2321644,0.26856053 21.946061,2.50484403 20.4574356,2.9270257 C18.1208252,3.59228166 15.3402855,3.73812624 13.0355743,2.84258937 C11.6958113,2.3206193 10.5075692,1.25109241 9.50274704,0.26856053 C9.50274704,0.26856053 2.82785675,1.22294697 1.65290593,6.34541787 C0.483271627,11.4704475 -0.149394199,15.6385319 0.0287092055,16.073507 C0.21212913,16.5059234 4.18091097,20.2415914 16.4514381,19.8936114 L17.2887899,19.8936114 C29.5566588,20.2415914 33.5254406,16.5059234 33.703544,16.073507 C33.8869639,15.6385319 33.2542981,11.4704475 32.0820055,6.34541787" id="Fill-4" fill="#8DD8F4" mask="url(#mask-6)"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

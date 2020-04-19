@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.full-height-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0 2rem;
+}
+
+.wave {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .full-height-wrapper {
+    grid-gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  form {
+    width: 290px;
+    h2 {
+      font-size: 2.4rem;
+      margin: 8px 0;
+    }
+  }
+  .img img {
+    width: 400px;
+  }
+}
+
+.route-sidebar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  .header-page-wr {
+    position: relative;
+    flex: 1;
+    .page-wr {
+      padding: 0 2rem;
+    }
+  }
+}
+
+.rc-pagination {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  &-item {
+    &-active {
+      a {
+        background: #218564!important;
+      }
+    }
+  }
+  &-disabled {
+    a {
+      background: rgba(#218564, 0.7)!important;
+    }
+  }
+  &-item, &-prev, &-next {
+    margin-right: 10px;
+    outline: none;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      border-radius: 2px;
+      padding: 3px 11px;
+      background: #32be8f;
+      color: #fff;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}
+
+
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+  &:hover {
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  }
+}
+
+.ReactModal__Overlay {
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  .ReactModal__Content {
+    overflow: hidden!important;
+    padding: 0!important;
+    max-width: 600px;
+    width: auto;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto!important;
+    bottom: auto!important;
+    margin-right: -50%;
+    z-index: 30!important;
+    transform: translate(-50%, -50%) !important;
+    max-height: 650px;
+  }
+}
+

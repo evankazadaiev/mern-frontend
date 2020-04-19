@@ -1,0 +1,132 @@
+$color-1st: #ffea92;
+$color-2nd: #5bc995;
+
+$menu-width-tablet: 90px;
+$menu-width-smartphone: 230px;
+
+$icon-url-base: "http://www.entypo.com/images/";
+$icon-url-dashboard: "${icon-url-base}/gauge.svg";
+$icon-url-customers: "${icon-url-base}/briefcase.svg";
+$icon-url-users: "${icon-url-base}/users.svg";
+$icon-url-settings: "${icon-url-base}/tools.svg";
+
+
+.sidebar {
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  height:100vh;
+  width: 200px;
+  z-index:5;
+  transition: .5s;
+  outline:none;
+  .avatar {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 2em 0.5em;
+    text-align: center;
+    img {
+      width:100px;
+      border-radius:50%;
+      overflow:hidden;
+      border:4px solid $color-1st;
+      box-shadow:0 0 0 4px rgba(255,255,255,0.2);
+    }
+    h2 {
+      font-weight:normal;
+      color: #f7f7f7;
+      margin-bottom:0;
+      margin-top: 5px;
+    }
+    .role {
+      padding-top: 7px;
+      display: block;
+      font-size: 12px;
+      color: #f7f7f7;
+    }
+    button {
+      cursor: pointer;
+      color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: none;
+      outline: none;
+      border: none;
+      margin: 20px auto 0;
+      i {
+        color: #f7f7f7;
+      }
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+  .sidebar_nav {
+    padding-top: 30px;
+  }
+  ul{
+    list-style:none;
+    padding:0.5em 0;
+    margin:0;
+
+    li{
+      padding:0.5em 1em 0.5em 2.5em;
+      font-size:0.95em;
+      background-repeat:no-repeat;
+      background-position:left 15px center;
+      background-size:auto 20px;
+      transition:all 0.15s linear;
+      cursor:pointer;
+
+      a {
+        display: flex;
+        justify-content: flex-start;
+        color: #f7f7f7;
+        font-weight: 300;
+        text-decoration: none;
+        i {
+          color: #f7f7f7;
+        }
+        span {
+          margin-left: 10px;
+        }
+      }
+
+      &.icon-dashboard{
+        background-image:url($icon-url-dashboard);
+      }
+      &.icon-customers{
+        background-image:url($icon-url-customers);
+      }
+      &.icon-users{
+        background-image:url($icon-url-users);
+      }
+      &.icon-settings{
+        background-image:url($icon-url-settings);
+      }
+
+      &:hover {
+        background-color:rgba(0,0,0,0.1);
+      }
+
+      &:focus{
+        outline:none;
+      }
+
+    }
+  }
+  &.collapsed {
+    width: 100px;
+    .avatar {
+      img {
+        width: 70px;
+      }
+      h2 {
+        font-size: 14px;
+        margin-top: 5px;
+      }
+      .role {
+        font-size: 10px;
+        padding-top: 5px;
+      }
+    }
+  }
+}

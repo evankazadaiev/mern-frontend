@@ -1,0 +1,28 @@
+.chat_window {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: calc(100vh - 48px);
+  width: 100%;
+  overflow: hidden;
+  &_contacts {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  &_messaging {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+
+//@media screen and (max-width: 1200px) {
+//  .chat_window {
+//    &_contacts {
+//      display: none;
+//    }
+//    &_messaging {
+//      flex: 0 0 100%;
+//      max-width: 100%;
+//    }
+//  }
+//}

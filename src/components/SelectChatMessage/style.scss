@@ -1,0 +1,23 @@
+$brand-color: #0088CC;
+$white: #fff;
+$grey: #999;
+$black: #000;
+$blue-lighten: #f2f6fa;
+$grey-darken-1: #b3b3b3;
+$grey-darken-2: #bfbfbf;
+$black-lighten: #222;
+
+.default_message {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    color: $grey;
+  }
+}

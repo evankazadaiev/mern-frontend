@@ -1,0 +1,12 @@
+.messaging {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 15px 20px;
+  background-image: url('https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/Telegram/Resources/art/bg_initial.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}

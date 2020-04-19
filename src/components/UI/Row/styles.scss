@@ -1,0 +1,15 @@
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  &.bottom-only {
+    margin: 0 0 20px 0;
+  }
+  &.no-margin {
+    margin: 0;
+  }
+  &.centered {
+    justify-content: center;
+  }
+}
