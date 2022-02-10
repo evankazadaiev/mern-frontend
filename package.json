@@ -17,7 +17,7 @@
     "global": "^4.4.0",
     "history": "^4.10.1",
     "linkifyjs": "^2.1.9",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "rc-pagination": "^2.0.1",
     "react": "^16.13.0",
     "react-breadcrumbs": "^2.1.7",
